@@ -48,7 +48,7 @@ const PostFeed = ({ data }: { data: BlogPosts[] }) => {
       <Hero search={search} setSearch={setSearch} />
       <div className="max-w-7xl mx-auto py-4 mt-16 px-4">
         <h2 className="text-2xl font-bold md:text-3xl">
-          {search ? `Search result for ${search}` : "Blog Posts"}
+          {search ? `Search result for "${search}"` : "Blog Posts"}
         </h2>
         <PostList data={postData} loading={loading} />
       </div>
