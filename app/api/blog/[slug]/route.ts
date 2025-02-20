@@ -5,8 +5,11 @@ export const GET = async (
   request: NextRequest,
   { params }: { params: Promise<{ slug: string }> }
 ) => {
-  const { slug } = await params;
   try {
+    const { slug } = await params;
+    if (!slug) {
+      return NextResponse.json({ error: "Missing slug" }, { status: 400 });
+    }
     const decodedSlug = decodeURIComponent(slug);
     const blog = mockData.find((item) => item.title === decodedSlug);
 

@@ -4,7 +4,7 @@ import React from "react";
 const BlogPost = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
   const response = await axios.get(`${baseUrl}/api/blog/${slug}`);
 
   const post: BlogPosts = response.data;

@@ -1,8 +1,22 @@
-import { IconMoodEmptyFilled } from "@tabler/icons-react";
+"use client";
+import { IconLoader2, IconMoodEmptyFilled } from "@tabler/icons-react";
 import Link from "next/link";
 import React from "react";
 
-const PostList = ({ data }: { data: BlogPosts[] }) => {
+const PostList = ({
+  data,
+  loading,
+}: {
+  data: BlogPosts[];
+  loading: boolean;
+}) => {
+  if (loading) {
+    return (
+      <div className="w-full h-[300px] flex items-center justify-center">
+        <IconLoader2 size={32} className="animate-spin" />
+      </div>
+    );
+  }
   return (
     <ul className="grid grid-cols-2 md:grid-cols-3 max-sm:grid-cols-1 gap-4 mt-8">
       {data.length > 0 ? (
