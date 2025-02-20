@@ -31,7 +31,9 @@ const PostFeed = ({ data }: { data: BlogPosts[] }) => {
     setLoading(true);
     const timer = setTimeout(() => {
       const filteredData = debouncedSearch
-        ? data.filter((post) => post.title.includes(debouncedSearch))
+        ? data.filter((post) =>
+            post.title.toLowerCase().includes(debouncedSearch.toLowerCase())
+          )
         : data;
       const pages = Math.ceil(filteredData.length / pageSize);
       setTotalPages(pages);
