@@ -1,7 +1,7 @@
 [
   {
     "title": "Tesla Model S Long Range Review",
-    "date": "2025-02-15",
+    "date": "2025-02-15T00:00:00Z",
     "summary": "A review of Tesla's flagship electric sedan with exceptional range.",
     "detail": "The Tesla Model S Long Range blends luxury with advanced battery technology, offering over 400 miles of range, rapid acceleration, and cutting-edge autopilot features.",
     "manufacturer": "Tesla",
@@ -15,7 +15,7 @@
   },
   {
     "title": "Tesla Model 3 Standard Range Plus Overview",
-    "date": "2025-02-10",
+    "date": "2025-02-10T00:00:00Z",
     "summary": "An accessible entry-level electric car with impressive performance.",
     "detail": "The Model 3 Standard Range Plus offers a balance of affordability and performance, with modern tech features and a range of around 263 miles on a full charge.",
     "manufacturer": "Tesla",
@@ -29,7 +29,7 @@
   },
   {
     "title": "Nissan Leaf SV: Urban Electric Solution",
-    "date": "2025-01-25",
+    "date": "2025-01-25T00:00:00Z",
     "summary": "A practical electric vehicle designed for city commuting.",
     "detail": "The Nissan Leaf SV features a refined design, efficient energy usage, and a range of about 150 miles, making it an ideal choice for urban mobility.",
     "manufacturer": "Nissan",
@@ -43,7 +43,7 @@
   },
   {
     "title": "Chevrolet Bolt EV: Compact and Efficient",
-    "date": "2025-02-05",
+    "date": "2025-02-05T00:00:00Z",
     "summary": "A compact electric car with a strong focus on efficiency.",
     "detail": "The Chevrolet Bolt EV offers a spacious interior and a range of up to 259 miles, making it a practical choice for daily commutes and city drives.",
     "manufacturer": "Chevrolet",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Ford Mustang Mach-E Premium Experience",
-    "date": "2025-02-12",
+    "date": "2025-02-12T00:00:00Z",
     "summary": "A sporty electric SUV that brings Mustang performance to the EV segment.",
     "detail": "The Mustang Mach-E Premium combines eye-catching design with strong performance and a range of about 300 miles, offering a dynamic and engaging driving experience.",
     "manufacturer": "Ford",
@@ -71,7 +71,7 @@
   },
   {
     "title": "Audi e-tron Sportback: Luxury Meets Efficiency",
-    "date": "2025-01-30",
+    "date": "2025-01-30T00:00:00Z",
     "summary": "A premium electric SUV with a sleek design and refined performance.",
     "detail": "The Audi e-tron Sportback offers a luxurious cabin, advanced driver assistance systems, and a range of around 280 miles, making it a top contender in the luxury EV market.",
     "manufacturer": "Audi",
@@ -85,7 +85,7 @@
   },
   {
     "title": "Jaguar I-Pace: Electric Performance SUV",
-    "date": "2025-02-08",
+    "date": "2025-02-08T00:00:00Z",
     "summary": "A sporty electric SUV that combines performance with style.",
     "detail": "The Jaguar I-Pace delivers dynamic handling and a range of approximately 234 miles, along with an upscale interior and futuristic tech features.",
     "manufacturer": "Jaguar",
@@ -99,7 +99,7 @@
   },
   {
     "title": "Porsche Taycan 4S: High-Performance EV",
-    "date": "2025-02-14",
+    "date": "2025-02-14T00:00:00Z",
     "summary": "A high-performance electric sports sedan with cutting-edge technology.",
     "detail": "The Porsche Taycan 4S stands out with its rapid acceleration, refined handling, and a range of about 227 miles, all wrapped in a design that exudes Porsche luxury.",
     "manufacturer": "Porsche",
@@ -113,7 +113,7 @@
   },
   {
     "title": "Hyundai Kona Electric: Affordable Innovation",
-    "date": "2025-01-28",
+    "date": "2025-01-28T00:00:00Z",
     "summary": "An affordable electric SUV that doesn’t compromise on features.",
     "detail": "The Hyundai Kona Electric offers a range of 258 miles, a well-equipped interior, and modern safety features, all at a competitive price point.",
     "manufacturer": "Hyundai",
@@ -127,7 +127,7 @@
   },
   {
     "title": "Kia EV6 GT-Line: Futuristic Design and Efficiency",
-    "date": "2025-02-16",
+    "date": "2025-02-16T00:00:00Z",
     "summary": "A stylish electric crossover with advanced technology and a bold design.",
     "detail": "The Kia EV6 GT-Line boasts a futuristic exterior, a range of approximately 300 miles, and quick charging capabilities, making it a strong competitor in the EV market.",
     "manufacturer": "Kia",
@@ -141,7 +141,7 @@
   },
   {
     "title": "Volkswagen ID.4 Pro: Electric Everyday Driver",
-    "date": "2025-02-03",
+    "date": "2025-02-03T00:00:00Z",
     "summary": "A practical electric SUV designed for everyday use.",
     "detail": "The VW ID.4 Pro offers a spacious interior, balanced performance, and a range of around 260 miles, ideal for family use and daily commutes.",
     "manufacturer": "Volkswagen",
@@ -155,7 +155,7 @@
   },
   {
     "title": "BMW iX3: Premium Electric SUV",
-    "date": "2025-02-11",
+    "date": "2025-02-11T00:00:00Z",
     "summary": "A well-rounded electric SUV that combines BMW luxury with sustainability.",
     "detail": "The BMW iX3 offers a smooth and quiet ride with a range of 285 miles, integrating premium materials and advanced technology for a refined driving experience.",
     "manufacturer": "BMW",
@@ -169,7 +169,7 @@
   },
   {
     "title": "Volvo XC40 Recharge: Scandinavian Safety and Style",
-    "date": "2025-02-06",
+    "date": "2025-02-06T00:00:00Z",
     "summary": "A compact electric SUV known for its safety features and stylish design.",
     "detail": "The Volvo XC40 Recharge delivers a robust performance with a range of about 223 miles, while prioritizing safety and modern Scandinavian design.",
     "manufacturer": "Volvo",
@@ -183,7 +183,7 @@
   },
   {
     "title": "Lucid Air Dream Edition: Luxury Redefined",
-    "date": "2025-02-18",
+    "date": "2025-02-18T00:00:00Z",
     "summary": "A luxurious electric sedan that pushes the limits of range and performance.",
     "detail": "The Lucid Air Dream Edition offers a staggering range of over 500 miles, cutting-edge technology, and opulent interior appointments, setting new benchmarks in the EV market.",
     "manufacturer": "Lucid Motors",
@@ -197,7 +197,7 @@
   },
   {
     "title": "Rivian R1T: The Electric Adventure Truck",
-    "date": "2025-02-20",
+    "date": "2025-02-20T00:00:00Z",
     "summary": "A robust electric pickup designed for both work and off-road adventures.",
     "detail": "The Rivian R1T blends utility with performance, featuring a versatile design, impressive off-road capabilities, and a range of approximately 300 miles, making it perfect for adventurous lifestyles.",
     "manufacturer": "Rivian",

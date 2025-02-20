@@ -3,9 +3,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full  mx-auto bg-background/40 pt-[80px]">
-      <div className="max-w-4xl min-h-[300px]  mx-auto py-2 text-center flex flex-col items-center justify-center gap-12">
-        <h1 className="text-2xl px-2 font-bold leading-[1.5] md:text-4xl ">
+    <div className="w-full  mx-auto bg-background/60 pt-[80px]">
+      <div className="max-w-4xl min-h-[300px]  mx-auto py-2 text-center flex flex-col items-center justify-center gap-12 px-4">
+        <h1 className="text-2xl  font-bold leading-[1.5] md:text-4xl ">
           <span className="text-primary"> Electrify your journey</span>:
           Discover the latest in EV innovations and drive the sustainable
           revolution.
