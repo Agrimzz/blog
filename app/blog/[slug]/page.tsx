@@ -43,37 +43,46 @@ const BlogPost = async ({ params }: { params: Promise<{ slug: string }> }) => {
             </div>
           </div>
         </div>
-        <div className="max-w-4xl mx-auto p-4 mt-16 text-center">
-          <p className="text-primary text-2xl font-bold">ABOUT</p>
-          <p>{post.detail}</p>
-        </div>
-        <div className="max-w-2xl mx-auto p-4 mt-16">
-          <p className="text-primary text-2xl font-bold">SPEC</p>
-          <div className="mt-4 w-full grid grid-cols-2 gap-4">
-            <p className="text-lg">RANGE</p>
-            <p className="text-lg text-right">{post.range}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">CHARGING TIME</p>
-            <p className="text-lg text-right">{post.chargingTime}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">MANUFACTURER</p>
-            <p className="text-lg text-right">{post.manufacturer}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">MODEL</p>
-            <p className="text-lg text-right">{post.model}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">BATTERY CAPACITY</p>
-            <p className="text-lg text-right">{post.batteryCapacity}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">TYPE</p>
-            <p className="text-lg text-right">{post.type}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">YEAR</p>
-            <p className="text-lg text-right">{post.year}</p>
-            <hr className="col-span-full text-white" />
-            <p className="text-lg">PRICE</p>
-            <p className="text-lg text-right">{post.price}</p>
-            <hr className="col-span-full text-white" />
+        <div className="bg-black py-4">
+          <div className="max-w-4xl mx-auto p-4 mt-16 text-center">
+            <p className="text-primary text-2xl font-bold">ABOUT</p>
+            <p>{post.detail}</p>
+          </div>
+          <div className="max-w-2xl mx-auto p-4 mt-16">
+            <p className="text-primary text-2xl font-bold">SPEC</p>
+            <div className="mt-4 w-full grid grid-cols-2 gap-4">
+              <p className="text-lg">RANGE</p>
+              <p className="text-lg text-right">{post.range}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">CHARGING TIME</p>
+              <p className="text-lg text-right">{post.chargingTime}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">MANUFACTURER</p>
+              <p className="text-lg text-right">{post.manufacturer}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">MODEL</p>
+              <p className="text-lg text-right">{post.model}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">BATTERY CAPACITY</p>
+              <p className="text-lg text-right">{post.batteryCapacity}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">TYPE</p>
+              <p className="text-lg text-right">{post.type}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">YEAR</p>
+              <p className="text-lg text-right">{post.year}</p>
+              <hr className="col-span-full text-white" />
+              <p className="text-lg">PRICE</p>
+              <p className="text-lg text-right">{post.price}</p>
+              <hr className="col-span-full text-white" />
+            </div>
+            <div className="mt-16 mx-auto flex items-center gap-8">
+              <div className="flex-1 border-t border-white" />
+              <button className="px-4 py-2 border-t border-b border-white text-lg font-semibold hover:scale-110 tranistion-all duration-300">
+                RESERVE NOW
+              </button>
+              <div className="flex-1 border-t border-white" />
+            </div>
           </div>
         </div>
       </>
