@@ -10,7 +10,7 @@ const PostFeed = ({ data }: { data: BlogPosts[] }) => {
   const [page, setPage] = useState(1);
   const [postData, setPostData] = useState<BlogPosts[]>([]);
   const [totalPages, setTotalPages] = useState(1);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const pageSize = 6;
 
@@ -18,6 +18,9 @@ const PostFeed = ({ data }: { data: BlogPosts[] }) => {
 
   useEffect(() => {
     setPostData(data);
+    setTimeout(() => {
+      setLoading(false);
+    }, 200);
   }, []);
 
   useEffect(() => {

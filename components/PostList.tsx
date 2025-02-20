@@ -35,7 +35,7 @@ const PostList = ({
           </li>
         ))
       ) : (
-        <div className="flex flex-col gap-4 items-center col-span-full ">
+        <div className="flex flex-col gap-4 justify-center items-center col-span-full h-[300px] ">
           <IconMoodEmptyFilled size={100} className="text-primary" />
           <p className="w-full text-center text-lg font-semibold">
             No posts found.
