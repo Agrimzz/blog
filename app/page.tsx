@@ -1,5 +1,4 @@
-import Hero from "@/components/Hero";
-import PostList from "@/components/PostList";
+import PostFeed from "@/components/PostFeed";
 import axios from "axios";
 
 export default async function Home() {
@@ -7,9 +6,8 @@ export default async function Home() {
   const data = response.data;
 
   return (
-    <div>
-      <Hero />
-      <PostList data={data} />
-    </div>
+    <>
+      <PostFeed data={data} />
+    </>
   );
 }

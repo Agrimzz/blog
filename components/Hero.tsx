@@ -1,7 +1,13 @@
 import { IconSearch } from "@tabler/icons-react";
 import React from "react";
 
-const Hero = () => {
+const Hero = ({
+  search,
+  setSearch,
+}: {
+  search: string;
+  setSearch: (search: string) => void;
+}) => {
   return (
     <div className="w-full  mx-auto bg-background/60 pt-[80px]">
       <div className="max-w-4xl min-h-[300px]  mx-auto py-2 text-center flex flex-col items-center justify-center gap-12 px-4">
@@ -18,6 +24,8 @@ const Hero = () => {
             id="search"
             placeholder="Search Posts"
             className="flex-1 p-2 text-black outline-none rounded-md md:text-lg "
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
           />
           <IconSearch size={28} className="cursor-pointer" />
         </div>
