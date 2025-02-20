@@ -2,7 +2,8 @@ import PostFeed from "@/components/PostFeed";
 import axios from "axios";
 
 export default async function Home() {
-  const response = await axios.get("http://localhost:3000/api/blog");
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+  const response = await axios.get(`${baseUrl}/api/blog`);
   const data = response.data;
 
   return (

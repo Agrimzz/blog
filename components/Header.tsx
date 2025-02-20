@@ -1,3 +1,4 @@
+import { IconMenu2 } from "@tabler/icons-react";
 import Link from "next/link";
 import React from "react";
 
@@ -9,10 +10,7 @@ const Header = () => {
           EV<span className="text-primary">Blog</span>
         </Link>
 
-        <ul className="flex gap-8 items-center text-lg font-semibold">
-          <li className="cursor-pointer hover:text-primary">Cars</li>
-          <li className="cursor-pointer hover:text-primary">Bikes</li>
-        </ul>
+        <IconMenu2 size={28} className="cursor-pointer" />
       </div>
     </div>
   );
